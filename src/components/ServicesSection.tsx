@@ -1,37 +1,6 @@
+import { Link } from 'react-router-dom';
 import Icon from '@/components/ui/icon.tsx';
-
-const services = [
-  {
-    icon: 'Home',
-    title: 'Монтаж кровли',
-    description: 'Устройство кровли под ключ: металлочерепица, профнастил, мягкая кровля, шифер. Частные дома, коммерческие здания, хозяйственные постройки.',
-  },
-  {
-    icon: 'Wrench',
-    title: 'Ремонт кровли',
-    description: 'Устраняем протечки, заменяем повреждённые элементы, выполняем капитальный и частичный ремонт крыш любой сложности.',
-  },
-  {
-    icon: 'Building2',
-    title: 'Общестроительные работы',
-    description: 'Фундаменты, стены, перекрытия, пристройки, реконструкция зданий. Строительство с нуля и по проекту заказчика.',
-  },
-  {
-    icon: 'Snowflake',
-    title: 'Утепление домов и крыш',
-    description: 'Утепление фасадов, кровли, чердаков и перекрытий. Снижение теплопотерь и расходов на отопление.',
-  },
-  {
-    icon: 'Paintbrush',
-    title: 'Фасадные и отделочные работы',
-    description: 'Облицовка фасадов, декоративные элементы, подшивка свесов, внутренние и внешние отделочные работы.',
-  },
-  {
-    icon: 'Droplets',
-    title: 'Водосточные системы',
-    description: 'Монтаж и замена водосточных систем для защиты здания от влаги и разрушений.',
-  },
-];
+import { servicesData } from '@/data/servicesData';
 
 export default function ServicesSection() {
   return (
@@ -45,10 +14,11 @@ export default function ServicesSection() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service) => (
-            <div
-              key={service.title}
-              className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-xl transition-all hover:border-orange-500 group"
+          {servicesData.map((service) => (
+            <Link
+              key={service.id}
+              to={`/services/${service.id}`}
+              className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-xl transition-all hover:border-orange-500 group cursor-pointer block"
             >
               <div className="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-orange-500 transition-colors">
                 <Icon name={service.icon} size={32} className="text-orange-500 group-hover:text-white transition-colors" />
@@ -62,15 +32,11 @@ export default function ServicesSection() {
                 {service.description}
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-3">
-                <button className="px-5 py-2 bg-orange-500 hover:bg-orange-600 text-white rounded-lg font-semibold transition-all text-sm">
-                  Заказать
-                </button>
-                <button className="px-5 py-2 border border-orange-500 text-orange-500 hover:bg-orange-50 rounded-lg font-semibold transition-all text-sm">
-                  Рассчитать
-                </button>
+              <div className="flex items-center gap-2 text-orange-500 font-semibold">
+                Подробнее
+                <Icon name="ArrowRight" size={20} />
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

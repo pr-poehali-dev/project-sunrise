@@ -1,4 +1,4 @@
-import Icon from '@/components/ui/icon';
+import Icon from '@/components/ui/icon.tsx';
 
 const steps = [
   { number: 1, icon: 'MessageSquare', title: 'Заявка или сообщение в Telegram-бот', description: 'Свяжитесь удобным способом' },

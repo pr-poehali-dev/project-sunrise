@@ -1,4 +1,4 @@
-import Icon from '@/components/ui/icon';
+import Icon from '@/components/ui/icon.tsx';
 
 const benefits = [
   { icon: 'Handshake', text: 'Работаем без посредников' },

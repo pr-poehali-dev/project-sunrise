@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
-import Icon from '@/components/ui/icon';
+import Icon from '@/components/ui/icon.tsx';
 
 const images = [
   'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920',

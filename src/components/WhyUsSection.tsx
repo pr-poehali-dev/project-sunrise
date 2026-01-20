@@ -23,7 +23,7 @@ export default function WhyUsSection() {
               key={benefit.text}
               className="flex items-center gap-4 bg-slate-800 rounded-lg p-6 hover:bg-slate-700 transition-colors"
             >
-              <div className="flex-shrink-0 w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center">
+              <div className="flex-shrink-0 w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
                 <Icon name={benefit.icon} size={24} className="text-white" />
               </div>
               <p className="text-white font-semibold text-lg">

@@ -21,17 +21,17 @@ export default function ProcessSection() {
             {steps.map((step, index) => (
               <div key={step.number} className="relative">
                 {index < steps.length - 1 && (
-                  <div className="absolute left-10 top-20 bottom-0 w-0.5 bg-orange-300 -mb-6" />
+                  <div className="absolute left-10 top-20 bottom-0 w-0.5 bg-blue-300 -mb-6" />
                 )}
                 
                 <div className="flex items-start gap-6 bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow">
-                  <div className="flex-shrink-0 w-20 h-20 bg-orange-500 rounded-full flex items-center justify-center relative z-10">
+                  <div className="flex-shrink-0 w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center relative z-10">
                     <Icon name={step.icon} size={32} className="text-white" />
                   </div>
                   
                   <div className="flex-1 pt-2">
                     <div className="flex items-center gap-3 mb-2">
-                      <span className="text-3xl font-bold text-orange-500">{step.number}</span>
+                      <span className="text-3xl font-bold text-blue-600">{step.number}</span>
                       <h3 className="text-xl font-bold text-slate-900">{step.title}</h3>
                     </div>
                     <p className="text-slate-600 text-lg">{step.description}</p>

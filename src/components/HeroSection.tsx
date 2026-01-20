@@ -100,14 +100,14 @@ export default function HeroSection() {
               )}
             >
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <button className="flex items-center justify-center gap-3 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all shadow-lg hover:shadow-xl">
+                <button className="flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all shadow-lg hover:shadow-xl">
                   <Icon name="Ruler" size={24} />
                   Заказать бесплатный замер
                 </button>
                 
                 <a 
                   href="tel:+79494915729"
-                  className="flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all shadow-lg hover:shadow-xl"
+                  className="flex items-center justify-center gap-3 bg-white hover:bg-gray-50 text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold transition-all shadow-lg hover:shadow-xl"
                 >
                   <Icon name="Phone" size={24} />
                   +7 949 491-57-29

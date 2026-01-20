@@ -18,10 +18,10 @@ export default function ServicesSection() {
             <Link
               key={service.id}
               to={`/services/${service.id}`}
-              className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-xl transition-all hover:border-orange-500 group cursor-pointer block"
+              className="bg-white border border-gray-200 rounded-xl p-8 hover:shadow-xl transition-all hover:border-blue-600 group cursor-pointer block"
             >
-              <div className="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-orange-500 transition-colors">
-                <Icon name={service.icon} size={32} className="text-orange-500 group-hover:text-white transition-colors" />
+              <div className="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-blue-600 transition-colors">
+                <Icon name={service.icon} size={32} className="text-blue-600 group-hover:text-white transition-colors" />
               </div>
               
               <h3 className="text-xl font-bold text-slate-900 mb-3">
@@ -32,7 +32,7 @@ export default function ServicesSection() {
                 {service.description}
               </p>
 
-              <div className="flex items-center gap-2 text-orange-500 font-semibold">
+              <div className="flex items-center gap-2 text-blue-600 font-semibold">
                 Подробнее
                 <Icon name="ArrowRight" size={20} />
               </div>

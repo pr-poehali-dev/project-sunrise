@@ -2,12 +2,14 @@ import { useParams, Link } from 'react-router-dom';
 import { useState } from 'react';
 import { servicesData } from '@/data/servicesData';
 import Icon from '@/components/ui/icon.tsx';
+import CalculateModal from '@/components/CalculateModal';
 import { cn } from '@/lib/utils';
 
 export default function ServicePage() {
   const { serviceId } = useParams<{ serviceId: string }>();
   const service = servicesData.find((s) => s.id === serviceId);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [isCalculateModalOpen, setIsCalculateModalOpen] = useState(false);
 
   if (!service) {
     return (
@@ -36,7 +38,7 @@ export default function ServicePage() {
       <div className="container mx-auto px-6 md:px-12 lg:px-16 py-12">
         <div className="max-w-6xl mx-auto">
           <div className="flex items-center gap-4 mb-6">
-            <div className="w-16 h-16 bg-orange-500 rounded-lg flex items-center justify-center">
+            <div className="w-16 h-16 bg-blue-600 rounded-lg flex items-center justify-center">
               <Icon name={service.icon} size={32} className="text-white" />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900">
@@ -83,7 +85,7 @@ export default function ServicePage() {
                         onClick={() => setCurrentImageIndex(index)}
                         className={cn(
                           'h-2 transition-all rounded-full',
-                          currentImageIndex === index ? 'w-12 bg-orange-500' : 'w-8 bg-gray-300 hover:bg-gray-400'
+                          currentImageIndex === index ? 'w-12 bg-blue-600' : 'w-8 bg-gray-300 hover:bg-gray-400'
                         )}
                       />
                     ))}
@@ -119,19 +121,19 @@ export default function ServicePage() {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl p-8 md:p-12 text-white">
+          <div className="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl p-8 md:p-12 text-white">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Заказать {service.title.toLowerCase()}
               </h2>
-              <p className="text-xl text-orange-50 mb-8">
+              <p className="text-xl text-blue-50 mb-8">
                 Свяжитесь с нами для бесплатного замера и расчёта стоимости
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="tel:+79494915729"
-                  className="flex items-center justify-center gap-3 bg-white text-orange-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-50 transition-all shadow-lg"
+                  className="flex items-center justify-center gap-3 bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-50 transition-all shadow-lg"
                 >
                   <Icon name="Phone" size={24} />
                   Позвонить
@@ -149,7 +151,10 @@ export default function ServicePage() {
                   Написать в Telegram
                 </a>
 
-                <button className="flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all shadow-lg">
+                <button 
+                  onClick={() => setIsCalculateModalOpen(true)}
+                  className="flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all shadow-lg"
+                >
                   <Icon name="Calculator" size={24} />
                   Рассчитать стоимость
                 </button>
@@ -161,11 +166,17 @@ export default function ServicePage() {
 
       <footer className="bg-slate-900 text-white py-8 mt-12">
         <div className="container mx-auto px-6 md:px-12 lg:px-16 text-center">
-          <Link to="/" className="text-orange-500 hover:text-orange-400 font-semibold">
+          <Link to="/" className="text-blue-500 hover:text-blue-400 font-semibold">
             ← Вернуться на главную
           </Link>
         </div>
       </footer>
+
+      <CalculateModal
+        isOpen={isCalculateModalOpen}
+        onClose={() => setIsCalculateModalOpen(false)}
+        serviceName={service.title}
+      />
     </div>
   );
 }

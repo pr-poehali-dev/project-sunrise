@@ -125,7 +125,7 @@ export default function PortfolioSection() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <p className="text-orange-400 text-sm font-semibold mb-1">{item.service}</p>
+                  <p className="text-blue-400 text-sm font-semibold mb-1">{item.service}</p>
                   <p className="text-white font-bold text-lg mb-1">{item.title}</p>
                   <p className="text-white/80 text-sm line-clamp-2">{item.description}</p>
                   <div className="flex items-center gap-2 text-white mt-3">
@@ -195,7 +195,7 @@ export default function PortfolioSection() {
 
             <div className="p-6 md:p-8">
               <div className="flex items-center gap-3 mb-3">
-                <span className="px-3 py-1 bg-orange-100 text-orange-600 rounded-full text-sm font-semibold">
+                <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold">
                   {selectedItem.service}
                 </span>
               </div>
@@ -211,7 +211,7 @@ export default function PortfolioSection() {
               <div className="flex gap-3">
                 <a
                   href="tel:+79494915729"
-                  className="flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold transition-all"
+                  className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all"
                 >
                   <Icon name="Phone" size={20} />
                   Позвонить
@@ -237,7 +237,7 @@ export default function PortfolioSection() {
                       onClick={() => setCurrentGalleryIndex(idx)}
                       className={cn(
                         'flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-all',
-                        currentGalleryIndex === idx ? 'border-orange-500' : 'border-gray-200 hover:border-gray-300'
+                        currentGalleryIndex === idx ? 'border-blue-600' : 'border-gray-200 hover:border-gray-300'
                       )}
                     >
                       <img src={img} alt="" className="w-full h-full object-cover" />

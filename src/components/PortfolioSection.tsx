@@ -12,64 +12,49 @@ interface PortfolioItem {
 
 const portfolioItems: PortfolioItem[] = [
   {
-    image: 'https://images.unsplash.com/photo-1590073844006-33379778ae09?w=800',
-    title: 'Монтаж металлочерепицы',
-    service: 'Монтаж кровли',
-    description: 'Частный дом в Донецке, площадь 180 м². Установлена металлочерепица, водосточная система.',
-    gallery: [
-      'https://images.unsplash.com/photo-1590073844006-33379778ae09?w=1200',
-      'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200',
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200',
-    ],
-  },
-  {
-    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800',
-    title: 'Ремонт кровли',
-    service: 'Ремонт кровли',
-    description: 'Устранение протечки, замена повреждённых листов. Многоквартирный дом, Донецк.',
-    gallery: [
-      'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200',
-      'https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=1200',
-    ],
-  },
-  {
-    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800',
-    title: 'Строительство пристройки',
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a8dfca04-8351-4273-a5e3-479b5f2e98a9.jpg',
+    title: 'Заливка фундамента',
     service: 'Общестроительные работы',
-    description: 'Пристройка к частному дому, площадь 40 м². Фундамент, стены, кровля.',
+    description: 'Армирование и заливка монолитного фундамента частного дома в Донецке',
     gallery: [
-      'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200',
-      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a8dfca04-8351-4273-a5e3-479b5f2e98a9.jpg',
     ],
   },
   {
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800',
-    title: 'Утепление фасада',
-    service: 'Утепление домов и крыш',
-    description: 'Утепление частного дома минеральной ватой, площадь 150 м². Снижение теплопотерь на 35%.',
-    gallery: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200',
-      'https://images.unsplash.com/photo-1590073844006-33379778ae09?w=1200',
-    ],
-  },
-  {
-    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800',
-    title: 'Облицовка фасада',
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ea8c310e-3eff-46e9-82b1-d687b95d5f7a.jpg',
+    title: 'Монтаж металлического забора',
     service: 'Фасадные и отделочные работы',
-    description: 'Облицовка фасада керамогранитом, коммерческое здание, площадь 200 м².',
+    description: 'Установка современного металлического ограждения участка',
     gallery: [
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200',
-      'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ea8c310e-3eff-46e9-82b1-d687b95d5f7a.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2f7e3d98-b561-47b5-8426-a2f326ccbc89.jpg',
     ],
   },
   {
-    image: 'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800',
-    title: 'Монтаж водосточной системы',
-    service: 'Водосточные системы',
-    description: 'Установка пластиковой водосточной системы, длина 45 м, частный дом.',
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2f7e3d98-b561-47b5-8426-a2f326ccbc89.jpg',
+    title: 'Забор-жалюзи',
+    service: 'Фасадные и отделочные работы',
+    description: 'Металлический забор-жалюзи, современный дизайн',
     gallery: [
-      'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1200',
-      'https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=1200',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2f7e3d98-b561-47b5-8426-a2f326ccbc89.jpg',
+    ],
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f758f81b-4557-4b99-8a4e-e2e82a418bf4.jpg',
+    title: 'Кухня под ключ',
+    service: 'Фасадные и отделочные работы',
+    description: 'Современная кухня с встроенной техникой и мебелью на заказ',
+    gallery: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f758f81b-4557-4b99-8a4e-e2e82a418bf4.jpg',
+    ],
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ba910fd6-edf0-4a03-bf6c-31351bda9568.jpg',
+    title: 'Укладка керамогранита',
+    service: 'Фасадные и отделочные работы',
+    description: 'Укладка керамогранита под дерево в жилом помещении',
+    gallery: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ba910fd6-edf0-4a03-bf6c-31351bda9568.jpg',
     ],
   },
 ];

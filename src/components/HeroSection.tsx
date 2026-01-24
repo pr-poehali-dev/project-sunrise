@@ -100,10 +100,15 @@ export default function HeroSection() {
               )}
             >
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <button className="flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all shadow-lg hover:shadow-xl">
+                <a
+                  href="https://t.me/DonetskStroyBot"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all shadow-lg hover:shadow-xl"
+                >
                   <Icon name="Ruler" size={24} />
                   Заказать бесплатный замер
-                </button>
+                </a>
                 
                 <a 
                   href="tel:+79494915729"

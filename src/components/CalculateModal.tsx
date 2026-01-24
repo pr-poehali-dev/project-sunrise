@@ -31,7 +31,7 @@ export default function CalculateModal({ isOpen, onClose, serviceName }: Calcula
     setSubmitStatus('idle');
 
     const TELEGRAM_BOT_TOKEN = '7967876548:AAH0kGgqSUh7XnlVqHbxHmzPGOgT0ebf2OI';
-    const TELEGRAM_CHAT_ID = '361508185';
+    const TELEGRAM_CHAT_ID = '1558764964';
 
     const message = `🧮 Новая заявка на расчёт стоимости\n\n` +
       `👤 Имя: ${formData.name}\n` +

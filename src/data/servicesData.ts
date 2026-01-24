@@ -20,13 +20,37 @@ export const servicesData: ServiceData[] = [
     description: 'Устройство кровли под ключ: металлочерепица, профнастил, мягкая кровля, шифер. Частные дома, коммерческие здания, хозяйственные постройки.',
     fullDescription: 'Профессиональный монтаж кровли любой сложности. Работаем с металлочерепицей, профнастилом, мягкой кровлей, шифером. Выполняем работы на частных домах, коммерческих зданиях и хозяйственных постройках. Гарантия качества и соблюдение технологий.',
     images: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a8dfca04-8351-4273-a5e3-479b5f2e98a9.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f7a794a0-1d51-40c4-917f-f328fad669a8.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f95657ca-103f-4046-af00-f56a62f008ab.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/311dd3b8-e94d-4bb0-84a7-4a6002661e95.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/6989f423-0688-46aa-8253-69074657ebb2.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2b39def4-0004-42cb-9aa3-6ac7424be75c.jpg',
     ],
     examples: [
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a8dfca04-8351-4273-a5e3-479b5f2e98a9.jpg',
-        title: 'Заливка фундамента частного дома',
-        description: 'Армирование и заливка монолитного фундамента',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f7a794a0-1d51-40c4-917f-f328fad669a8.jpg',
+        title: 'Строительство кровли каркасного дома',
+        description: 'Монтаж стропильной системы, этапы строительства',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f95657ca-103f-4046-af00-f56a62f008ab.jpg',
+        title: 'Монтаж деревянных стропил',
+        description: 'Установка стропильной конструкции крыши',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/311dd3b8-e94d-4bb0-84a7-4a6002661e95.jpg',
+        title: 'Металлочерепица на жилом доме',
+        description: 'Полная кровля с водосточной системой',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/6989f423-0688-46aa-8253-69074657ebb2.jpg',
+        title: 'Профнастил на деревянной баане',
+        description: 'Монтаж металлического покрытия',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2b39def4-0004-42cb-9aa3-6ac7424be75c.jpg',
+        title: 'Монтаж крыши деревянной бани',
+        description: 'Установка стропил и обрешетки',
       },
     ],
   },
@@ -37,13 +61,25 @@ export const servicesData: ServiceData[] = [
     description: 'Устраняем протечки, заменяем повреждённые элементы, выполняем капитальный и частичный ремонт крыш любой сложности.',
     fullDescription: 'Быстрое устранение протечек и повреждений кровли. Проводим диагностику, заменяем повреждённые элементы, выполняем капитальный и частичный ремонт крыш любой сложности. Работаем со всеми типами кровельных материалов.',
     images: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a8dfca04-8351-4273-a5e3-479b5f2e98a9.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/311dd3b8-e94d-4bb0-84a7-4a6002661e95.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f7a794a0-1d51-40c4-917f-f328fad669a8.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2b39def4-0004-42cb-9aa3-6ac7424be75c.jpg',
     ],
     examples: [
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a8dfca04-8351-4273-a5e3-479b5f2e98a9.jpg',
-        title: 'Бетонные работы',
-        description: 'Заливка бетона под строительство',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/311dd3b8-e94d-4bb0-84a7-4a6002661e95.jpg',
+        title: 'Ремонт металлочерепицы',
+        description: 'Замена поврежденных листов и водостока',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f7a794a0-1d51-40c4-917f-f328fad669a8.jpg',
+        title: 'Ремонт стропильной системы',
+        description: 'Восстановление несущей конструкции',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2b39def4-0004-42cb-9aa3-6ac7424be75c.jpg',
+        title: 'Капитальный ремонт крыши',
+        description: 'Полная замена кровельного покрытия',
       },
     ],
   },

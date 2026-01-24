@@ -90,13 +90,37 @@ export const servicesData: ServiceData[] = [
     description: 'Фундаменты, стены, перекрытия, пристройки, реконструкция зданий. Строительство с нуля и по проекту заказчика.',
     fullDescription: 'Полный спектр общестроительных работ: от заливки фундамента до возведения стен и перекрытий. Выполняем пристройки, реконструкцию зданий, строительство с нуля по проектам заказчика. Опытные бригады и качественные материалы.',
     images: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a8dfca04-8351-4273-a5e3-479b5f2e98a9.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/d07b1fdf-aacf-486a-b111-07f562bd613a.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f04677d4-d715-4860-9601-22e4cc40f54f.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/da60ea55-5e54-43f4-8611-99bf929a0863.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/45c60827-3114-4ffb-b4a2-b310644eabe7.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f000b3cb-8f9b-4948-b069-2cdfd3f1c563.jpg',
     ],
     examples: [
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a8dfca04-8351-4273-a5e3-479b5f2e98a9.jpg',
-        title: 'Строительство с нуля',
-        description: 'Фундамент и подготовка площадки',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/d07b1fdf-aacf-486a-b111-07f562bd613a.jpg',
+        title: 'Армирование монолитной плиты',
+        description: 'Подготовка к заливке фундамента перекрытия',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f04677d4-d715-4860-9601-22e4cc40f54f.jpg',
+        title: 'Монолитная плита перекрытия',
+        description: 'Заливка бетонного перекрытия жилого дома',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/da60ea55-5e54-43f4-8611-99bf929a0863.jpg',
+        title: 'Плитный фундамент',
+        description: 'Заливка монолитной плиты с армированием',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/45c60827-3114-4ffb-b4a2-b310644eabe7.jpg',
+        title: 'Опалубка и заливка',
+        description: 'Монтаж опалубки под фундамент',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f000b3cb-8f9b-4948-b069-2cdfd3f1c563.jpg',
+        title: 'Ленточный фундамент',
+        description: 'Армирование и заливка ленточного фундамента',
       },
     ],
   },

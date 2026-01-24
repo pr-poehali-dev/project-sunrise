@@ -30,15 +30,15 @@ export default function CalculateModal({ isOpen, onClose, serviceName }: Calcula
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
-    const TELEGRAM_BOT_TOKEN = '7967876548:AAH0kGgqSUh7XnlVqHbxHmzPGOgT0ebf2OI';
-    const TELEGRAM_CHAT_ID = '1558764964';
+    const TELEGRAM_BOT_TOKEN = '8330148159:AAF4oiiRH7xyPhXLcDadK9Jx4KpMyM66BBw';
+    const TELEGRAM_CHAT_ID = '722623121';
 
-    const message = `🧮 Новая заявка на расчёт стоимости\n\n` +
-      `👤 Имя: ${formData.name}\n` +
-      `📱 Телефон: ${formData.phone}\n` +
-      `🔧 Услуга: ${formData.service}\n` +
-      `📏 Площадь: ${formData.area} м²\n` +
-      `💬 Комментарий: ${formData.comment || 'Не указан'}`;
+    const message = `Новая заявка с сайта:\n` +
+      `Имя: ${formData.name}\n` +
+      `Телефон: ${formData.phone}\n` +
+      `Услуга: ${formData.service}\n` +
+      `Площадь: ${formData.area ? formData.area + ' м²' : 'Не указана'}\n` +
+      `Комментарий: ${formData.comment || 'Не указан'}`;
 
     try {
       const response = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {

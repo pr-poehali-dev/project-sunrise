@@ -7,10 +7,54 @@ export default function ContactSection() {
     phone: '',
     comment: '',
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Форма отправлена:', formData);
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+
+    const TELEGRAM_BOT_TOKEN = '8330148159:AAF4oiiRH7xyPhXLcDadK9Jx4KpMyM66BBw';
+    const TELEGRAM_CHAT_ID = '722623121';
+
+    const message = `Новая заявка с сайта:\n` +
+      `Имя: ${formData.name}\n` +
+      `Телефон: ${formData.phone}\n` +
+      `Комментарий: ${formData.comment || 'Не указан'}`;
+
+    try {
+      const response = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          chat_id: TELEGRAM_CHAT_ID,
+          text: message,
+          parse_mode: 'HTML',
+        }),
+      });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setFormData({
+          name: '',
+          phone: '',
+          comment: '',
+        });
+        setTimeout(() => {
+          setSubmitStatus('idle');
+        }, 3000);
+      } else {
+        setSubmitStatus('error');
+      }
+    } catch (error) {
+      console.error('Ошибка отправки:', error);
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -81,12 +125,35 @@ export default function ContactSection() {
                   />
                 </div>
 
+                {submitStatus === 'success' && (
+                  <div className="bg-green-50 text-green-700 px-4 py-3 rounded-lg text-center font-semibold flex items-center justify-center gap-2">
+                    <Icon name="CheckCircle" size={20} />
+                    Заявка отправлена! Мы свяжемся с вами в ближайшее время
+                  </div>
+                )}
+
+                {submitStatus === 'error' && (
+                  <div className="bg-red-50 text-red-600 px-4 py-3 rounded-lg text-sm">
+                    Произошла ошибка. Попробуйте позже или позвоните нам.
+                  </div>
+                )}
+
                 <button
                   type="submit"
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-3"
+                  disabled={isSubmitting}
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  <Icon name="Send" size={24} />
-                  Отправить заявку
+                  {isSubmitting ? (
+                    <>
+                      <Icon name="Loader2" size={24} className="animate-spin" />
+                      Отправка...
+                    </>
+                  ) : (
+                    <>
+                      <Icon name="Send" size={24} />
+                      Отправить заявку
+                    </>
+                  )}
                 </button>
               </form>
             </div>

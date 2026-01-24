@@ -131,13 +131,31 @@ export const servicesData: ServiceData[] = [
     description: 'Утепление фасадов, кровли, чердаков и перекрытий. Снижение теплопотерь и расходов на отопление.',
     fullDescription: 'Профессиональное утепление фасадов, кровли, чердаков и перекрытий. Используем современные теплоизоляционные материалы. Снижаем теплопотери до 40% и экономим ваши расходы на отопление.',
     images: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a8dfca04-8351-4273-a5e3-479b5f2e98a9.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/28c9adc5-e0c3-4ac1-aa3d-01a983fbc5dc.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/01b5120f-912f-4d39-93b1-d8e14d8793fd.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/0593b348-d217-461e-98bb-55a463b2e696.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/002e9b56-c5c6-44a3-9f48-224d8d08aa45.jpg',
     ],
     examples: [
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a8dfca04-8351-4273-a5e3-479b5f2e98a9.jpg',
-        title: 'Бетонные работы',
-        description: 'Площадка под жилой дом',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/28c9adc5-e0c3-4ac1-aa3d-01a983fbc5dc.jpg',
+        title: 'Утепление чердака эковатой',
+        description: 'Напыление эковаты на перекрытие чердака',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/01b5120f-912f-4d39-93b1-d8e14d8793fd.jpg',
+        title: 'Монтаж каркаса под утепление',
+        description: 'Подготовка стропильной системы для утепления крыши',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/0593b348-d217-461e-98bb-55a463b2e696.jpg',
+        title: 'Утепление фасада пенопластом',
+        description: 'Монтаж утеплителя на фасад здания под штукатурку',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/002e9b56-c5c6-44a3-9f48-224d8d08aa45.jpg',
+        title: 'Утепление фасада жилого дома',
+        description: 'Комплексное утепление стен с установкой крепежа',
       },
     ],
   },
@@ -183,13 +201,13 @@ export const servicesData: ServiceData[] = [
     description: 'Монтаж и замена водосточных систем для защиты здания от влаги и разрушений.',
     fullDescription: 'Монтаж и замена водосточных систем любой сложности. Защищаем здание от влаги, предотвращаем разрушение фундамента и фасада. Используем качественные материалы с длительным сроком службы.',
     images: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a8dfca04-8351-4273-a5e3-479b5f2e98a9.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/83dc837d-bcd6-4f9e-908b-f012cf5e612d.jpg',
     ],
     examples: [
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a8dfca04-8351-4273-a5e3-479b5f2e98a9.jpg',
-        title: 'Дренажные работы',
-        description: 'Система отвода воды',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/83dc837d-bcd6-4f9e-908b-f012cf5e612d.jpg',
+        title: 'Монтаж водостока на плоской кровле',
+        description: 'Установка системы водоотвода с защитой от протечек',
       },
     ],
   },

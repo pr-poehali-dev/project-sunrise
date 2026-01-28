@@ -192,35 +192,51 @@ export const servicesData: ServiceData[] = [
   {
     id: 'facade',
     icon: 'Paintbrush',
-    title: 'Фасадные и отделочные работы',
-    description: 'Облицовка фасадов, декоративные элементы, подшивка свесов, внутренние и внешние отделочные работы.',
-    fullDescription: 'Комплексные фасадные и отделочные работы: облицовка фасадов, монтаж декоративных элементов, подшивка свесов кровли. Выполняем внутренние и внешние отделочные работы любой сложности.',
+    title: 'Ремонт и восстановление старых домов',
+    description: 'Замена венцов, реконструкция полов, усиление перекрытий, пристройка веранд и демонтаж ветхих конструкций.',
+    fullDescription: `Ремонт и восстановление старых домов:
+
+• Замена венцов — подъем деревянного дома на домкратах и замена сгнивших нижних брёвен или бруса на новые.
+
+• Реконструкция полов — демонтаж гнилых лаг, выравнивание основания, утепление и укладка нового чистового пола.
+
+• Усиление перекрытий — укрепление балок между этажами или чердаком, чтобы полы не прогибались и не скрипели.
+
+• Пристройка веранд и террас — расширение жилой площади старого дома, монтаж легких пристроек на отдельном фундаменте.
+
+• Демонтажные работы — аккуратный снос ветхих перегородок, печей или пристроек, которые не подлежат восстановлению.`,
     images: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ea8c310e-3eff-46e9-82b1-d687b95d5f7a.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2f7e3d98-b561-47b5-8426-a2f326ccbc89.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f758f81b-4557-4b99-8a4e-e2e82a418bf4.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ba910fd6-edf0-4a03-bf6c-31351bda9568.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/02f4f415-fe84-4417-b6d7-520836b04c37.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/40bd8c7f-f2e0-4946-be20-e042d48f4807.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f41e9979-089a-4ad4-af0a-296eb58d499b.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/0f797e3c-6714-4dc8-8cc1-75815ff089f6.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/17ec7513-6694-4e35-be13-3697ec2f0fe7.jpg',
     ],
     examples: [
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ea8c310e-3eff-46e9-82b1-d687b95d5f7a.jpg',
-        title: 'Монтаж металлического забора',
-        description: 'Ограждение участка, современный дизайн',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/02f4f415-fe84-4417-b6d7-520836b04c37.jpg',
+        title: 'Замена венцов деревянного дома',
+        description: 'Подъем дома на домкратах и замена сгнивших брёвен',
       },
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2f7e3d98-b561-47b5-8426-a2f326ccbc89.jpg',
-        title: 'Забор жалюзи',
-        description: 'Установка металлического забора-жалюзи',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/40bd8c7f-f2e0-4946-be20-e042d48f4807.jpg',
+        title: 'Реконструкция деревянного пола',
+        description: 'Монтаж новых лаг и утепление основания',
       },
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f758f81b-4557-4b99-8a4e-e2e82a418bf4.jpg',
-        title: 'Кухня под ключ',
-        description: 'Современная кухня с встроенной техникой',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f41e9979-089a-4ad4-af0a-296eb58d499b.jpg',
+        title: 'Усиление перекрытий',
+        description: 'Укрепление балок металлическими элементами',
       },
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ba910fd6-edf0-4a03-bf6c-31351bda9568.jpg',
-        title: 'Укладка плитки',
-        description: 'Керамогранит под дерево',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/0f797e3c-6714-4dc8-8cc1-75815ff089f6.jpg',
+        title: 'Пристройка веранды к дому',
+        description: 'Расширение жилой площади с крыльцом',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/17ec7513-6694-4e35-be13-3697ec2f0fe7.jpg',
+        title: 'Демонтаж ветхих конструкций',
+        description: 'Снос старой пристройки экскаватором',
       },
     ],
   },

@@ -427,4 +427,39 @@ export const servicesData: ServiceData[] = [
       },
     ],
   },
+  {
+    id: 'new-construction',
+    icon: 'HomeIcon',
+    title: 'Строительство с нуля',
+    description: 'Частные дома, дачи и бани под ключ. Полный цикл от фундамента до крыши из любых материалов.',
+    fullDescription: `Строительство с нуля:
+
+• Частные дома — полный цикл строительства от фундамента до крыши. Капитальные дома для постоянного проживания из любых материалов (кирпич, блок, дерево).
+
+• Дачи — возведение уютных загородных домов для сезонного отдыха. Быстро, качественно и под ваш бюджет.
+
+• Бани — строительство традиционных бань. Правильная парная, монтаж печи и внутренняя отделка деревом.`,
+    images: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/0817a28c-94b9-4609-8854-6a6e46f96169.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/b6275437-c4e1-4e4e-a50d-b5adabea9111.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7c694e48-8af9-4871-a848-c219c3a457ca.jpg',
+    ],
+    examples: [
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/0817a28c-94b9-4609-8854-6a6e46f96169.jpg',
+        title: 'Строительство частного дома',
+        description: 'Возведение дома из газоблока с монтажом стропильной системы',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/b6275437-c4e1-4e4e-a50d-b5adabea9111.jpg',
+        title: 'Дачный дом из бруса',
+        description: 'Строительство двухэтажного дома для сезонного проживания',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7c694e48-8af9-4871-a848-c219c3a457ca.jpg',
+        title: 'Баня с парилкой',
+        description: 'Внутренняя отделка деревом и монтаж печи',
+      },
+    ],
+  },
 ];

@@ -104,76 +104,70 @@ export const servicesData: ServiceData[] = [
   {
     id: 'construction',
     icon: 'Building2',
-    title: 'Общестроительные работы',
-    description: 'Фундаменты, стены, перекрытия, пристройки, реконструкция зданий. Строительство с нуля и по проекту заказчика.',
-    fullDescription: 'Полный спектр общестроительных работ: от заливки фундамента до возведения стен и перекрытий. Выполняем пристройки, реконструкцию зданий, строительство с нуля по проектам заказчика. Опытные бригады и качественные материалы.',
+    title: 'Кровельные работы (шифер)',
+    description: 'Монтаж, замена и покраска шифера. Надежный и бюджетный вариант для частных домов и хозпостроек.',
+    fullDescription: `Кровельные работы (шифер):
+
+• Монтаж шифера — укладка классических асбестоцементных листов на готовую обрешетку. Надежный и бюджетный вариант для частных домов и хозпостроек.
+
+• Замена старого шифера — демонтаж треснувших листов и установка нового покрытия без полной разборки крыши.
+
+• Герметизация и покраска — заделка отверстий в местах креплений и окрашивание шифера специальными составами для защиты от мха и влаги.`,
     images: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/d07b1fdf-aacf-486a-b111-07f562bd613a.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f04677d4-d715-4860-9601-22e4cc40f54f.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/da60ea55-5e54-43f4-8611-99bf929a0863.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/45c60827-3114-4ffb-b4a2-b310644eabe7.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f000b3cb-8f9b-4948-b069-2cdfd3f1c563.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/c4bc55db-ce35-4df1-851f-4ce2f5dc9353.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/4259116c-1d14-4489-9d01-f897c76a4116.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/1928626c-0e8d-4e91-8fc8-2a746427a425.jpg',
     ],
     examples: [
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/d07b1fdf-aacf-486a-b111-07f562bd613a.jpg',
-        title: 'Армирование монолитной плиты',
-        description: 'Подготовка к заливке фундамента перекрытия',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/c4bc55db-ce35-4df1-851f-4ce2f5dc9353.jpg',
+        title: 'Монтаж шифера на обрешетку',
+        description: 'Укладка асбестоцементных листов на навес',
       },
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f04677d4-d715-4860-9601-22e4cc40f54f.jpg',
-        title: 'Монолитная плита перекрытия',
-        description: 'Заливка бетонного перекрытия жилого дома',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/4259116c-1d14-4489-9d01-f897c76a4116.jpg',
+        title: 'Замена старого шифера',
+        description: 'Демонтаж поврежденных листов и установка новых',
       },
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/da60ea55-5e54-43f4-8611-99bf929a0863.jpg',
-        title: 'Плитный фундамент',
-        description: 'Заливка монолитной плиты с армированием',
-      },
-      {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/45c60827-3114-4ffb-b4a2-b310644eabe7.jpg',
-        title: 'Опалубка и заливка',
-        description: 'Монтаж опалубки под фундамент',
-      },
-      {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f000b3cb-8f9b-4948-b069-2cdfd3f1c563.jpg',
-        title: 'Ленточный фундамент',
-        description: 'Армирование и заливка ленточного фундамента',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/1928626c-0e8d-4e91-8fc8-2a746427a425.jpg',
+        title: 'Покраска шифера',
+        description: 'Нанесение защитного покрытия от мха и влаги',
       },
     ],
   },
   {
     id: 'insulation',
     icon: 'Snowflake',
-    title: 'Утепление домов и крыш',
-    description: 'Утепление фасадов, кровли, чердаков и перекрытий. Снижение теплопотерь и расходов на отопление.',
-    fullDescription: 'Профессиональное утепление фасадов, кровли, чердаков и перекрытий. Используем современные теплоизоляционные материалы. Снижаем теплопотери до 40% и экономим ваши расходы на отопление.',
+    title: 'Фасадные работы',
+    description: 'Облицовка сайдингом, утепление, штукатурка, покраска и ремонт фасадов. Защита и обновление внешнего вида дома.',
+    fullDescription: `Фасадные работы:
+
+• Облицовка сайдингом — обшивка стен виниловыми или металлическими панелями. Быстрый способ обновить вид дома и защитить стены от осадков.
+
+• Утепление фасада — монтаж минваты или пенополистирола («мокрый фасад» под штукатурку или под обшивку), чтобы снизить расходы на отопление.
+
+• Декоративная штукатурка — нанесение финишных покрытий («короед», «барашек»). Придает дому эстетичный вид и скрывает неровности стен.
+
+• Облицовка кирпичом и камнем — отделка фасада декоративным кирпичом, натуральным или искусственным камнем для максимальной долговечности.
+
+• Покраска фасада — обновление цвета и защита стен специальными фасадными красками, устойчивыми к выгоранию и влаге.
+
+• Ремонт фасада — заделка трещин, восстановление отслаивающихся участков и реставрация старой отделки.`,
     images: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/28c9adc5-e0c3-4ac1-aa3d-01a983fbc5dc.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/01b5120f-912f-4d39-93b1-d8e14d8793fd.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/0593b348-d217-461e-98bb-55a463b2e696.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/002e9b56-c5c6-44a3-9f48-224d8d08aa45.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a0670eee-ac7e-4854-8252-6a786ac029be.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7d0d6bf9-6235-4db0-af52-ea0b224c4eb2.jpg',
     ],
     examples: [
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/28c9adc5-e0c3-4ac1-aa3d-01a983fbc5dc.jpg',
-        title: 'Утепление чердака эковатой',
-        description: 'Напыление эковаты на перекрытие чердака',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a0670eee-ac7e-4854-8252-6a786ac029be.jpg',
+        title: 'Облицовка сайдингом',
+        description: 'Обшивка фасада виниловыми панелями с утеплением',
       },
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/01b5120f-912f-4d39-93b1-d8e14d8793fd.jpg',
-        title: 'Монтаж каркаса под утепление',
-        description: 'Подготовка стропильной системы для утепления крыши',
-      },
-      {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/0593b348-d217-461e-98bb-55a463b2e696.jpg',
-        title: 'Утепление фасада пенопластом',
-        description: 'Монтаж утеплителя на фасад здания под штукатурку',
-      },
-      {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/002e9b56-c5c6-44a3-9f48-224d8d08aa45.jpg',
-        title: 'Утепление фасада жилого дома',
-        description: 'Комплексное утепление стен с установкой крепежа',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7d0d6bf9-6235-4db0-af52-ea0b224c4eb2.jpg',
+        title: 'Утепление фасада минватой',
+        description: 'Монтаж теплоизоляции под финишную отделку',
       },
     ],
   },

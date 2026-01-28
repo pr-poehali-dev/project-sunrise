@@ -293,4 +293,55 @@ export const servicesData: ServiceData[] = [
       },
     ],
   },
+  {
+    id: 'tiling',
+    icon: 'Grid3x3',
+    title: 'Плиточные работы (на улице)',
+    description: 'Укладка тротуарной плитки, облицовка крыльца и ступеней, отмостка, цоколь и установка бордюров.',
+    fullDescription: `Плиточные работы (на улице):
+
+• Укладка тротуарной плитки — мощение дорожек, площадок для авто и зон отдыха.
+
+• Облицовка крыльца и ступеней — отделка входа керамогранитом или клинкерной плиткой с антискользящим покрытием.
+
+• Плитка на отмостку — укладка декоративной плитки поверх бетонного основания вокруг дома.
+
+• Облицовка цоколя — отделка нижней части фасада камнем или плиткой для защиты от влаги и грязи.
+
+• Установка бордюров — монтаж садовых и дорожных бордюров для фиксации края плитки.`,
+    images: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/83fd62ae-7185-44c3-af9b-ee38843c84f1.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/62acf3de-5bac-481b-8afe-0ca9d47cbfb6.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/47aef649-00f5-4669-9398-3f05b2410ad8.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/3164e795-856f-4d0c-bdc2-13f3b4bb92cd.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2a4ab811-6551-4d62-a08e-992daf926bac.jpg',
+    ],
+    examples: [
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/83fd62ae-7185-44c3-af9b-ee38843c84f1.jpg',
+        title: 'Укладка тротуарной плитки',
+        description: 'Мощение площадки разноцветной плиткой «Старый город»',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/62acf3de-5bac-481b-8afe-0ca9d47cbfb6.jpg',
+        title: 'Облицовка крыльца керамогранитом',
+        description: 'Отделка входа антискользящим покрытием',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/47aef649-00f5-4669-9398-3f05b2410ad8.jpg',
+        title: 'Плитка на отмостку дома',
+        description: 'Укладка тротуарной плитки с облицовкой цоколя',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/3164e795-856f-4d0c-bdc2-13f3b4bb92cd.jpg',
+        title: 'Облицовка цоколя камнем',
+        description: 'Отделка декоративным камнем для защиты от влаги',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2a4ab811-6551-4d62-a08e-992daf926bac.jpg',
+        title: 'Установка бордюров',
+        description: 'Монтаж садовых бордюров для фиксации плитки',
+      },
+    ],
+  },
 ];

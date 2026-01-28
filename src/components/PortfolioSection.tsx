@@ -195,7 +195,7 @@ export default function PortfolioSection() {
 
               <div className="flex gap-3">
                 <a
-                  href="tel:+79494915729"
+                  href="tel:+79490049053"
                   className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all"
                 >
                   <Icon name="Phone" size={20} />

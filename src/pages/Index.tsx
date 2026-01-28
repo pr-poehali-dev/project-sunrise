@@ -1,6 +1,8 @@
 import HeroSection from '@/components/HeroSection';
+import PromoSection from '@/components/PromoSection';
 import AboutSection from '@/components/AboutSection';
 import ServicesSection from '@/components/ServicesSection';
+import SocialSupportSection from '@/components/SocialSupportSection';
 import WhyUsSection from '@/components/WhyUsSection';
 import ProcessSection from '@/components/ProcessSection';
 import PortfolioSection from '@/components/PortfolioSection';
@@ -12,8 +14,10 @@ const Index = () => {
   return (
     <main className="bg-white">
       <HeroSection />
+      <PromoSection />
       <AboutSection />
       <ServicesSection />
+      <SocialSupportSection />
       <WhyUsSection />
       <ProcessSection />
       <PortfolioSection />

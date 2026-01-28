@@ -135,7 +135,7 @@ export default function CalculateModal({ isOpen, onClose, serviceName }: Calcula
                 value={formData.phone}
                 onChange={handleChange}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
-                placeholder="+7 (949) 491-57-29"
+                placeholder="+7 (949) 004-90-53"
                 required
               />
             </div>

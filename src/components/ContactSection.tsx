@@ -164,7 +164,7 @@ export default function ContactSection() {
                 
                 <div className="space-y-4">
                   <a
-                    href="tel:+79494915729"
+                    href="tel:+79490049053"
                     className="flex items-center gap-4 p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors"
                   >
                     <div className="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center flex-shrink-0">
@@ -172,7 +172,7 @@ export default function ContactSection() {
                     </div>
                     <div>
                       <p className="text-sm text-slate-600">Телефон</p>
-                      <p className="text-lg font-semibold text-slate-900">+7 949 491-57-29</p>
+                      <p className="text-lg font-semibold text-slate-900">+7 949 004-90-53</p>
                     </div>
                   </a>
 

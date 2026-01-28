@@ -132,7 +132,7 @@ export default function ServicePage() {
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="tel:+79494915729"
+                  href="tel:+79490049053"
                   className="flex items-center justify-center gap-3 bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-50 transition-all shadow-lg"
                 >
                   <Icon name="Phone" size={24} />

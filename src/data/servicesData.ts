@@ -157,6 +157,9 @@ export const servicesData: ServiceData[] = [
     images: [
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a0670eee-ac7e-4854-8252-6a786ac029be.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7d0d6bf9-6235-4db0-af52-ea0b224c4eb2.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/e5757956-d0d6-49c1-b69a-c63892b167ee.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/9daa1536-71cd-4b10-b6fa-a12a4ba9e20d.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/9dd2618d-7ebd-437f-b657-c067b484589d.jpg',
     ],
     examples: [
       {
@@ -168,6 +171,21 @@ export const servicesData: ServiceData[] = [
         image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7d0d6bf9-6235-4db0-af52-ea0b224c4eb2.jpg',
         title: 'Утепление фасада минватой',
         description: 'Монтаж теплоизоляции под финишную отделку',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/e5757956-d0d6-49c1-b69a-c63892b167ee.jpg',
+        title: 'Декоративная штукатурка "Барашек"',
+        description: 'Нанесение финишного покрытия на фасад',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/9daa1536-71cd-4b10-b6fa-a12a4ba9e20d.jpg',
+        title: 'Облицовка декоративным кирпичом',
+        description: 'Отделка фасада клинкерным кирпичом с утеплением',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/9dd2618d-7ebd-437f-b657-c067b484589d.jpg',
+        title: 'Ремонт фасада "До и После"',
+        description: 'Реставрация кирпичной кладки и финишная штукатурка',
       },
     ],
   },

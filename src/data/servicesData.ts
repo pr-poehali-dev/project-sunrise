@@ -374,6 +374,10 @@ export const servicesData: ServiceData[] = [
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/66f113bb-ef9c-4e0c-aa15-dd76d3bad72b.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ab2c1917-1758-4b28-a5d2-6f16326ae7c6.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a6391b2c-9aac-4133-b923-83c29a23c4f9.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ea0f2573-ec10-466a-9308-2285e6df9ccb.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/314ec283-b673-4709-9f37-7684617d2e54.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7aac1736-6b66-496e-8ec6-8315bddc8799.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/9f812bed-dc73-4202-b0ce-07fe78c200d0.jpg',
     ],
     examples: [
       {
@@ -400,6 +404,26 @@ export const servicesData: ServiceData[] = [
         image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a6391b2c-9aac-4133-b923-83c29a23c4f9.jpg',
         title: 'Установка окон ПВХ',
         description: 'Монтаж окон с подоконниками и откосами',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ea0f2573-ec10-466a-9308-2285e6df9ccb.jpg',
+        title: 'Установка межкомнатной двери',
+        description: 'Монтаж филенчатой двери с наличниками',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/314ec283-b673-4709-9f37-7684617d2e54.jpg',
+        title: 'Строительство хозблока',
+        description: 'Возведение бытовки из дерева с окном',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7aac1736-6b66-496e-8ec6-8315bddc8799.jpg',
+        title: 'Беседка с резными балясинами',
+        description: 'Строительство садовой зоны отдыха',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/9f812bed-dc73-4202-b0ce-07fe78c200d0.jpg',
+        title: 'Навес для автомобиля',
+        description: 'Металлоконструкция с поликарбонатом',
       },
     ],
   },

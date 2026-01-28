@@ -344,4 +344,63 @@ export const servicesData: ServiceData[] = [
       },
     ],
   },
+  {
+    id: 'general-construction',
+    icon: 'Hammer',
+    title: 'Общестроительные работы',
+    description: 'Возведение стен, штукатурка, стяжка пола, потолки, установка окон и дверей, садовые постройки.',
+    fullDescription: `Общестроительные работы:
+
+• Возведение стен — кладка кирпича, газоблока, пеноблока или возведение каркаса.
+
+• Штукатурные работы — выравнивание стен под обои или покраску.
+
+• Стяжка пола — заливка ровного основания под ламинат, линолеум или плитку.
+
+• Потолки — монтаж подвесных конструкций из гипсокартона или панелей.
+
+• Установка окон — монтаж ПВХ-окон, подоконников и отливов.
+
+• Входные и межкомнатные двери — установка коробок, полотен и фурнитуры.
+
+• Хозблоки и сараи — строительство бытовок для хранения инвентаря.
+
+• Беседки — возведение зон отдыха из дерева или металла.
+
+• Навесы — строительство укрытий для автомобиля из поликарбоната или профнастила.`,
+    images: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/8d05a7cd-cb3c-42c3-ba1f-bc25205dddb7.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/abbe90af-7a84-440c-b2f1-9bc70c6de162.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/66f113bb-ef9c-4e0c-aa15-dd76d3bad72b.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ab2c1917-1758-4b28-a5d2-6f16326ae7c6.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a6391b2c-9aac-4133-b923-83c29a23c4f9.jpg',
+    ],
+    examples: [
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/8d05a7cd-cb3c-42c3-ba1f-bc25205dddb7.jpg',
+        title: 'Возведение стен из кирпича',
+        description: 'Кладка несущих и перегородочных стен',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/abbe90af-7a84-440c-b2f1-9bc70c6de162.jpg',
+        title: 'Штукатурные работы',
+        description: 'Выравнивание стен под финишную отделку',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/66f113bb-ef9c-4e0c-aa15-dd76d3bad72b.jpg',
+        title: 'Стяжка пола',
+        description: 'Заливка ровного основания под напольное покрытие',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ab2c1917-1758-4b28-a5d2-6f16326ae7c6.jpg',
+        title: 'Монтаж подвесного потолка',
+        description: 'Установка каркаса из гипсокартона',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a6391b2c-9aac-4133-b923-83c29a23c4f9.jpg',
+        title: 'Установка окон ПВХ',
+        description: 'Монтаж окон с подоконниками и откосами',
+      },
+    ],
+  },
 ];

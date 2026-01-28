@@ -59,29 +59,45 @@ export const servicesData: ServiceData[] = [
   {
     id: 'roof-repair',
     icon: 'Wrench',
-    title: 'Ремонт кровли',
-    description: 'Устраняем протечки, заменяем повреждённые элементы, выполняем капитальный и частичный ремонт крыш любой сложности.',
-    fullDescription: 'Быстрое устранение протечек и повреждений кровли. Проводим диагностику, заменяем повреждённые элементы, выполняем капитальный и частичный ремонт крыш любой сложности. Работаем со всеми типами кровельных материалов.',
+    title: 'Фундаментные работы',
+    description: 'Фундаментные работы для частных домов и дач. Заливка, ремонт, гидроизоляция и отмостка.',
+    fullDescription: `Фундаментные работы для частных домов и дач:
+
+• Заливка фундамента — устройство бетонного основания (ленточный, плита, сваи) под ключ.
+
+• Ремонт и усиление — устранение трещин, укрепление старого фундамента и замена венцов.
+
+• Гидроизоляция и дренаж — защита основания от грунтовых вод, сырости и разрушения.
+
+• Земляные работы — рытье траншей, котлованов и устройство песчано-гравийной подушки.
+
+• Монтаж отмостки — создание бетонной или мягкой дорожки вокруг дома для отвода осадков.`,
     images: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/311dd3b8-e94d-4bb0-84a7-4a6002661e95.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f7a794a0-1d51-40c4-917f-f328fad669a8.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2b39def4-0004-42cb-9aa3-6ac7424be75c.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/5b98d7be-6221-4524-a318-3746563bace0.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/56bffd0f-6cee-4a30-a462-8e2282c7f4b5.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7e86f9da-30de-4065-a3c7-db29b5e8fe5d.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/3c56ed71-1d79-45c8-8cda-b078160b5a75.jpg',
     ],
     examples: [
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/311dd3b8-e94d-4bb0-84a7-4a6002661e95.jpg',
-        title: 'Ремонт металлочерепицы',
-        description: 'Замена поврежденных листов и водостока',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/5b98d7be-6221-4524-a318-3746563bace0.jpg',
+        title: 'Заливка ленточного фундамента',
+        description: 'Устройство опалубки и заливка бетоном',
       },
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f7a794a0-1d51-40c4-917f-f328fad669a8.jpg',
-        title: 'Ремонт стропильной системы',
-        description: 'Восстановление несущей конструкции',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/56bffd0f-6cee-4a30-a462-8e2282c7f4b5.jpg',
+        title: 'Ремонт и замена венцов',
+        description: 'Укрепление фундамента деревянного дома',
       },
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2b39def4-0004-42cb-9aa3-6ac7424be75c.jpg',
-        title: 'Капитальный ремонт крыши',
-        description: 'Полная замена кровельного покрытия',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7e86f9da-30de-4065-a3c7-db29b5e8fe5d.jpg',
+        title: 'Гидроизоляция фундамента',
+        description: 'Нанесение защитного покрытия от влаги',
+      },
+      {
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/3c56ed71-1d79-45c8-8cda-b078160b5a75.jpg',
+        title: 'Монтаж бетонной отмостки',
+        description: 'Устройство водоотвода вокруг дома',
       },
     ],
   },

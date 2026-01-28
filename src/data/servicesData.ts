@@ -16,41 +16,43 @@ export const servicesData: ServiceData[] = [
   {
     id: 'roof-installation',
     icon: 'Home',
-    title: 'Монтаж кровли',
-    description: 'Устройство кровли под ключ: металлочерепица, профнастил, мягкая кровля, шифер. Частные дома, коммерческие здания, хозяйственные постройки.',
-    fullDescription: 'Профессиональный монтаж кровли любой сложности. Работаем с металлочерепицей, профнастилом, мягкой кровлей, шифером. Выполняем работы на частных домах, коммерческих зданиях и хозяйственных постройках. Гарантия качества и соблюдение технологий.',
+    title: 'Кровельные работы',
+    description: 'Монтаж, ремонт и утепление кровли. Установка стропильной системы, укладка покрытия, устранение протечек, монтаж теплоизоляции.',
+    fullDescription: `Кровельные работы любой сложности:
+
+• Монтаж кровли — установка стропильной системы и укладка покрытия (металлочерепица, мягкая кровля, профнастил).
+
+• Ремонт крыши — устранение протечек, замена поврежденных листов и восстановление герметичности.
+
+• Утепление кровли — монтаж теплоизоляции и пароизоляции для защиты дома от холода и конденсата.
+
+• Обслуживание и подшив — отделка карнизов (софиты), установка снегозадержателей и чистка кровли.`,
     images: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f7a794a0-1d51-40c4-917f-f328fad669a8.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f95657ca-103f-4046-af00-f56a62f008ab.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/311dd3b8-e94d-4bb0-84a7-4a6002661e95.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/6989f423-0688-46aa-8253-69074657ebb2.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2b39def4-0004-42cb-9aa3-6ac7424be75c.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2e4e950c-6c3e-4fb2-99fd-77cdffc8a337.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ce72b274-2fa3-4380-94cb-2dc26a02102e.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a59a04d0-77fc-40bc-a2d2-1660e9b05763.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7cff307e-5935-436d-84b1-2216efe922a9.jpg',
     ],
     examples: [
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f7a794a0-1d51-40c4-917f-f328fad669a8.jpg',
-        title: 'Строительство кровли каркасного дома',
-        description: 'Монтаж стропильной системы, этапы строительства',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2e4e950c-6c3e-4fb2-99fd-77cdffc8a337.jpg',
+        title: 'Монтаж металлочерепицы',
+        description: 'Установка кровельного покрытия с пароизоляцией',
       },
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f95657ca-103f-4046-af00-f56a62f008ab.jpg',
-        title: 'Монтаж деревянных стропил',
-        description: 'Установка стропильной конструкции крыши',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ce72b274-2fa3-4380-94cb-2dc26a02102e.jpg',
+        title: 'Ремонт кровли',
+        description: 'Замена поврежденных листов профнастила',
       },
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/311dd3b8-e94d-4bb0-84a7-4a6002661e95.jpg',
-        title: 'Металлочерепица на жилом доме',
-        description: 'Полная кровля с водосточной системой',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a59a04d0-77fc-40bc-a2d2-1660e9b05763.jpg',
+        title: 'Утепление кровли',
+        description: 'Монтаж теплоизоляции между стропилами',
       },
       {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/6989f423-0688-46aa-8253-69074657ebb2.jpg',
-        title: 'Профнастил на деревянной баане',
-        description: 'Монтаж металлического покрытия',
-      },
-      {
-        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2b39def4-0004-42cb-9aa3-6ac7424be75c.jpg',
-        title: 'Монтаж крыши деревянной бани',
-        description: 'Установка стропил и обрешетки',
+        image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7cff307e-5935-436d-84b1-2216efe922a9.jpg',
+        title: 'Подшив карнизов',
+        description: 'Установка софитов и отделка свесов',
       },
     ],
   },

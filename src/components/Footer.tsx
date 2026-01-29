@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Строительная компания</h3>
             <p className="text-white/70">
-              Кровельные и строительные работы под ключ в Донецке, ДНР
+              Кровельные и строительные работы под ключ в Донецке и по всей ДНР
             </p>
           </div>
 
@@ -53,7 +53,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/60 text-sm">
-            Строительные и кровельные работы в Донецке © 2026. Все права защищены
+            Строительные и кровельные работы в Донецке и по всей ДНР © 2026. Все права защищены
           </p>
           <a href="#" className="text-white/60 hover:text-white text-sm transition-colors">
             Политика конфиденциальности

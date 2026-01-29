@@ -54,7 +54,7 @@ export default function HeroSection() {
               )}
             >
               <h1 className="text-4xl font-bold text-white md:text-5xl lg:text-6xl xl:text-7xl leading-tight">
-                Строительные и кровельные работы под ключ в Донецке
+                Строительные и кровельные работы под ключ в Донецке и по всей ДНР
               </h1>
             </div>
 

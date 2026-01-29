@@ -40,10 +40,13 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Услуги</h3>
             <ul className="space-y-2 text-white/70">
-              <li>Монтаж кровли</li>
-              <li>Ремонт кровли</li>
-              <li>Строительные работы</li>
-              <li>Утепление домов</li>
+              <li>Кровельные работы</li>
+              <li>Фундаментные работы</li>
+              <li>Кровельные работы (шифер)</li>
+              <li>Фасадные работы</li>
+              <li>Внутренняя отделка</li>
+              <li>Столярные работы</li>
+              <li>Ограждения и заборы</li>
             </ul>
           </div>
         </div>

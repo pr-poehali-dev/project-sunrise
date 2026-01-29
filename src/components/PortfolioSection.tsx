@@ -12,49 +12,129 @@ interface PortfolioItem {
 
 const portfolioItems: PortfolioItem[] = [
   {
-    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a8dfca04-8351-4273-a5e3-479b5f2e98a9.jpg',
-    title: 'Заливка фундамента',
-    service: 'Общестроительные работы',
-    description: 'Армирование и заливка монолитного фундамента частного дома в Донецке',
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2e4e950c-6c3e-4fb2-99fd-77cdffc8a337.jpg',
+    title: 'Монтаж металлочерепицы',
+    service: 'Кровельные работы',
+    description: 'Установка кровельного покрытия с пароизоляцией',
     gallery: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a8dfca04-8351-4273-a5e3-479b5f2e98a9.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2e4e950c-6c3e-4fb2-99fd-77cdffc8a337.jpg',
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ea8c310e-3eff-46e9-82b1-d687b95d5f7a.jpg',
-    title: 'Монтаж металлического забора',
-    service: 'Фасадные и отделочные работы',
-    description: 'Установка современного металлического ограждения участка',
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ce72b274-2fa3-4380-94cb-2dc26a02102e.jpg',
+    title: 'Ремонт кровли',
+    service: 'Кровельные работы',
+    description: 'Замена поврежденных листов профнастила',
     gallery: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ea8c310e-3eff-46e9-82b1-d687b95d5f7a.jpg',
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2f7e3d98-b561-47b5-8426-a2f326ccbc89.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ce72b274-2fa3-4380-94cb-2dc26a02102e.jpg',
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2f7e3d98-b561-47b5-8426-a2f326ccbc89.jpg',
-    title: 'Забор-жалюзи',
-    service: 'Фасадные и отделочные работы',
-    description: 'Металлический забор-жалюзи, современный дизайн',
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/5b98d7be-6221-4524-a318-3746563bace0.jpg',
+    title: 'Заливка ленточного фундамента',
+    service: 'Фундаментные работы',
+    description: 'Устройство опалубки и заливка бетоном',
     gallery: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2f7e3d98-b561-47b5-8426-a2f326ccbc89.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/5b98d7be-6221-4524-a318-3746563bace0.jpg',
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f758f81b-4557-4b99-8a4e-e2e82a418bf4.jpg',
-    title: 'Кухня под ключ',
-    service: 'Фасадные и отделочные работы',
-    description: 'Современная кухня с встроенной техникой и мебелью на заказ',
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/56bffd0f-6cee-4a30-a462-8e2282c7f4b5.jpg',
+    title: 'Ремонт и замена венцов',
+    service: 'Фундаментные работы',
+    description: 'Укрепление фундамента деревянного дома',
     gallery: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f758f81b-4557-4b99-8a4e-e2e82a418bf4.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/56bffd0f-6cee-4a30-a462-8e2282c7f4b5.jpg',
+    ],
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/c4bc55db-ce35-4df1-851f-4ce2f5dc9353.jpg',
+    title: 'Монтаж шифера на обрешетку',
+    service: 'Кровельные работы (шифер)',
+    description: 'Укладка асбестоцементных листов на навес',
+    gallery: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/c4bc55db-ce35-4df1-851f-4ce2f5dc9353.jpg',
+    ],
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/4259116c-1d14-4489-9d01-f897c76a4116.jpg',
+    title: 'Замена старого шифера',
+    service: 'Кровельные работы (шифер)',
+    description: 'Демонтаж поврежденных листов и установка новых',
+    gallery: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/4259116c-1d14-4489-9d01-f897c76a4116.jpg',
+    ],
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a0670eee-ac7e-4854-8252-6a786ac029be.jpg',
+    title: 'Облицовка сайдингом',
+    service: 'Фасадные работы',
+    description: 'Обшивка фасада виниловыми панелями с утеплением',
+    gallery: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a0670eee-ac7e-4854-8252-6a786ac029be.jpg',
+    ],
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7d0d6bf9-6235-4db0-af52-ea0b224c4eb2.jpg',
+    title: 'Утепление фасада',
+    service: 'Фасадные работы',
+    description: 'Монтаж минваты под штукатурку',
+    gallery: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7d0d6bf9-6235-4db0-af52-ea0b224c4eb2.jpg',
+    ],
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/16f40da6-9c67-4fbe-8e52-5614faaab029.jpg',
+    title: 'Монтаж гипсокартонных стен',
+    service: 'Внутренняя отделка',
+    description: 'Устройство перегородок из ГКЛ на металлокаркасе',
+    gallery: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/16f40da6-9c67-4fbe-8e52-5614faaab029.jpg',
     ],
   },
   {
     image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ba910fd6-edf0-4a03-bf6c-31351bda9568.jpg',
     title: 'Укладка керамогранита',
-    service: 'Фасадные и отделочные работы',
+    service: 'Внутренняя отделка',
     description: 'Укладка керамогранита под дерево в жилом помещении',
     gallery: [
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ba910fd6-edf0-4a03-bf6c-31351bda9568.jpg',
+    ],
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/14225393-6394-4af8-8d9e-5afea9fd35d4.jpg',
+    title: 'Монтаж деревянной лестницы',
+    service: 'Столярные работы',
+    description: 'Изготовление и установка двухмаршевой лестницы',
+    gallery: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/14225393-6394-4af8-8d9e-5afea9fd35d4.jpg',
+    ],
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/dd98a9b6-1d08-42b0-9ad1-d8efc5d8f92a.jpg',
+    title: 'Установка деревянного крыльца',
+    service: 'Столярные работы',
+    description: 'Строительство террасы с перилами и навесом',
+    gallery: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/dd98a9b6-1d08-42b0-9ad1-d8efc5d8f92a.jpg',
+    ],
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ea8c310e-3eff-46e9-82b1-d687b95d5f7a.jpg',
+    title: 'Монтаж металлического забора',
+    service: 'Ограждения и заборы',
+    description: 'Установка современного металлического ограждения участка',
+    gallery: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ea8c310e-3eff-46e9-82b1-d687b95d5f7a.jpg',
+    ],
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2f7e3d98-b561-47b5-8426-a2f326ccbc89.jpg',
+    title: 'Забор-жалюзи',
+    service: 'Ограждения и заборы',
+    description: 'Металлический забор-жалюзи, современный дизайн',
+    gallery: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2f7e3d98-b561-47b5-8426-a2f326ccbc89.jpg',
     ],
   },
 ];

@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Строительная компания</h3>
             <p className="text-white/70">
-              Кровельные и строительные работы под ключ в Донецке
+              Кровельные и строительные работы под ключ в Донецке, ДНР
             </p>
           </div>
 

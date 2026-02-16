@@ -84,15 +84,6 @@ const portfolioItems: PortfolioItem[] = [
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/16f40da6-9c67-4fbe-8e52-5614faaab029.jpg',
-    title: 'Монтаж гипсокартонных стен',
-    service: 'Внутренняя отделка',
-    description: 'Устройство перегородок из ГКЛ на металлокаркасе',
-    gallery: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/16f40da6-9c67-4fbe-8e52-5614faaab029.jpg',
-    ],
-  },
-  {
     image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ba910fd6-edf0-4a03-bf6c-31351bda9568.jpg',
     title: 'Укладка керамогранита',
     service: 'Внутренняя отделка',
@@ -102,21 +93,48 @@ const portfolioItems: PortfolioItem[] = [
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/14225393-6394-4af8-8d9e-5afea9fd35d4.jpg',
-    title: 'Монтаж деревянной лестницы',
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/291e5100-8c7c-4dc1-b343-58f2c562d876.jpg',
+    title: 'Строительство деревянной веранды',
     service: 'Столярные работы',
-    description: 'Изготовление и установка двухмаршевой лестницы',
+    description: 'Возведение открытой веранды с декоративными перилами и навесом',
     gallery: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/14225393-6394-4af8-8d9e-5afea9fd35d4.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/291e5100-8c7c-4dc1-b343-58f2c562d876.jpg',
     ],
   },
   {
-    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/dd98a9b6-1d08-42b0-9ad1-d8efc5d8f92a.jpg',
-    title: 'Установка деревянного крыльца',
-    service: 'Столярные работы',
-    description: 'Строительство террасы с перилами и навесом',
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/e63662ce-c7f3-400a-9665-373b78d7e9d1.jpg',
+    title: 'Подшивка свесов кровли',
+    service: 'Кровельные работы',
+    description: 'Монтаж софитов и водосточной системы на фасаде',
     gallery: [
-      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/dd98a9b6-1d08-42b0-9ad1-d8efc5d8f92a.jpg',
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/e63662ce-c7f3-400a-9665-373b78d7e9d1.jpg',
+    ],
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/3a52c3ba-5139-425b-8b9a-dc8aa65f5e4d.jpg',
+    title: 'Кладка кирпичных столбов забора',
+    service: 'Ограждения и заборы',
+    description: 'Возведение опорных столбов из облицовочного кирпича с армированием',
+    gallery: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/3a52c3ba-5139-425b-8b9a-dc8aa65f5e4d.jpg',
+    ],
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/69d58cab-faf8-41ab-8f46-6550f5407a60.jpg',
+    title: 'Строительство дома из газоблока',
+    service: 'Строительство домов',
+    description: 'Возведение стен и стропильной системы жилого дома',
+    gallery: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/69d58cab-faf8-41ab-8f46-6550f5407a60.jpg',
+    ],
+  },
+  {
+    image: 'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2f08a92b-7669-43fb-bfe2-321d9a16bfa5.jpg',
+    title: 'Заливка отмостки',
+    service: 'Фундаментные работы',
+    description: 'Устройство бетонной отмостки с дренажной системой',
+    gallery: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2f08a92b-7669-43fb-bfe2-321d9a16bfa5.jpg',
     ],
   },
   {

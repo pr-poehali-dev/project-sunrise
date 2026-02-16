@@ -4,9 +4,20 @@ import Icon from '@/components/ui/icon.tsx';
 interface OrderModalProps {
   isOpen: boolean;
   onClose: () => void;
+  title?: string;
+  submitLabel?: string;
+  submitIcon?: string;
+  messagePrefix?: string;
 }
 
-export default function OrderModal({ isOpen, onClose }: OrderModalProps) {
+export default function OrderModal({
+  isOpen,
+  onClose,
+  title = 'Бесплатный замер',
+  submitLabel = 'Заказать замер',
+  submitIcon = 'Ruler',
+  messagePrefix = 'Новая заявка с сайта',
+}: OrderModalProps) {
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -29,7 +40,7 @@ export default function OrderModal({ isOpen, onClose }: OrderModalProps) {
     const TELEGRAM_BOT_TOKEN = '8330148159:AAF4oiiRH7xyPhXLcDadK9Jx4KpMyM66BBw';
     const TELEGRAM_CHAT_ID = '722623121';
 
-    const message = `Новая заявка с сайта:\nИмя: ${formData.name}\nТелефон: ${formData.phone}`;
+    const message = `${messagePrefix}:\nИмя: ${formData.name}\nТелефон: ${formData.phone}`;
 
     try {
       const response = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
@@ -76,7 +87,7 @@ export default function OrderModal({ isOpen, onClose }: OrderModalProps) {
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold text-slate-900">Бесплатный замер</h2>
+          <h2 className="text-2xl font-bold text-slate-900">{title}</h2>
           <button
             onClick={onClose}
             className="w-10 h-10 bg-gray-100 hover:bg-gray-200 rounded-full flex items-center justify-center transition-colors"
@@ -96,12 +107,12 @@ export default function OrderModal({ isOpen, onClose }: OrderModalProps) {
         ) : (
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label htmlFor="name" className="block text-sm font-semibold text-slate-700 mb-2">
+              <label htmlFor="modal-name" className="block text-sm font-semibold text-slate-700 mb-2">
                 Ваше имя *
               </label>
               <input
                 type="text"
-                id="name"
+                id="modal-name"
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
@@ -112,12 +123,12 @@ export default function OrderModal({ isOpen, onClose }: OrderModalProps) {
             </div>
 
             <div>
-              <label htmlFor="phone" className="block text-sm font-semibold text-slate-700 mb-2">
+              <label htmlFor="modal-phone" className="block text-sm font-semibold text-slate-700 mb-2">
                 Телефон *
               </label>
               <input
                 type="tel"
-                id="phone"
+                id="modal-phone"
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
@@ -145,8 +156,8 @@ export default function OrderModal({ isOpen, onClose }: OrderModalProps) {
                 </>
               ) : (
                 <>
-                  <Icon name="Ruler" size={24} />
-                  Заказать замер
+                  <Icon name={submitIcon} size={24} />
+                  {submitLabel}
                 </>
               )}
             </button>

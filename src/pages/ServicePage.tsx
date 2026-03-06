@@ -4,6 +4,7 @@ import { servicesData } from '@/data/servicesData';
 import Icon from '@/components/ui/icon.tsx';
 import CalculateModal from '@/components/CalculateModal';
 import { cn } from '@/lib/utils';
+import Header from '@/components/Header';
 
 export default function ServicePage() {
   const { serviceId } = useParams<{ serviceId: string }>();
@@ -26,7 +27,8 @@ export default function ServicePage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <div className="bg-slate-900 text-white py-6">
+      <Header />
+      <div className="bg-slate-900 text-white py-6 pt-22">
         <div className="container mx-auto px-6 md:px-12 lg:px-16">
           <Link to="/" className="inline-flex items-center gap-2 text-white/70 hover:text-white transition-colors mb-4">
             <Icon name="ArrowLeft" size={20} />

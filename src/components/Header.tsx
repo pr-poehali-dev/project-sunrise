@@ -3,11 +3,11 @@ import { Link, useLocation } from 'react-router-dom';
 import Icon from '@/components/ui/icon.tsx';
 
 const navLinks = [
+  { href: '/services', label: 'Все услуги' },
   { href: '/about', label: 'О нас' },
   { href: '/why-us', label: 'Почему выбирают нас' },
   { href: '/social', label: 'Социальная поддержка' },
   { href: '/portfolio', label: 'Наши работы' },
-  { href: '/services', label: 'Услуги' },
   { href: '/awards', label: 'Награды и сертификаты' },
 ];
 
@@ -32,8 +32,34 @@ export default function Header() {
         scrolled ? 'bg-slate-900/97 shadow-lg' : 'bg-slate-900/90'
       } backdrop-blur-sm`}
     >
+      {/* Строка навигации — только desktop */}
+      <div className="hidden xl:block border-b border-slate-700">
+        <div className="container mx-auto px-4 md:px-8 lg:px-12">
+          <div className="flex items-center gap-1 h-10">
+            {navLinks.map((link, i) => (
+              <Link
+                key={link.href}
+                to={link.href}
+                className={`px-3 py-1.5 rounded text-sm font-medium transition-colors whitespace-nowrap ${
+                  i === 0
+                    ? location.pathname === link.href
+                      ? 'bg-blue-500 text-white'
+                      : 'bg-blue-600 hover:bg-blue-500 text-white'
+                    : location.pathname === link.href
+                    ? 'bg-slate-700 text-white'
+                    : 'text-slate-300 hover:text-white hover:bg-slate-700'
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Логотип + телефон + бургер */}
       <div className="container mx-auto px-4 md:px-8 lg:px-12">
-        <div className="flex items-center justify-between h-16 md:h-18">
+        <div className="flex items-center justify-between h-14">
           <Link to="/" className="flex items-center gap-2 flex-shrink-0">
             <div className="w-9 h-9 bg-blue-600 rounded-lg flex items-center justify-center">
               <Icon name="Home" size={20} className="text-white" />
@@ -43,22 +69,6 @@ export default function Header() {
               <div className="text-blue-400 text-xs hidden sm:block">Строительство и кровля</div>
             </div>
           </Link>
-
-          <nav className="hidden xl:flex items-center gap-1">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                to={link.href}
-                className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors whitespace-nowrap ${
-                  location.pathname === link.href
-                    ? 'bg-blue-600 text-white'
-                    : 'text-slate-300 hover:text-white hover:bg-slate-700'
-                }`}
-              >
-                {link.label}
-              </Link>
-            ))}
-          </nav>
 
           <div className="flex items-center gap-3">
             <a
@@ -79,6 +89,7 @@ export default function Header() {
         </div>
       </div>
 
+      {/* Мобильное меню */}
       {menuOpen && (
         <div className="xl:hidden bg-slate-900 border-t border-slate-700 shadow-xl">
           <nav className="container mx-auto px-4 py-3 flex flex-col gap-1">

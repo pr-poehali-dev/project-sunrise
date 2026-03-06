@@ -28,6 +28,7 @@ export const servicesData: ServiceData[] = [
 
 • Обслуживание и подшив — отделка карнизов (софиты), установка снегозадержателей и чистка кровли.`,
     images: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/4e6e56cd-3383-4e07-9ba2-df4b2498f623.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2e4e950c-6c3e-4fb2-99fd-77cdffc8a337.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ce72b274-2fa3-4380-94cb-2dc26a02102e.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/a59a04d0-77fc-40bc-a2d2-1660e9b05763.jpg',
@@ -73,6 +74,7 @@ export const servicesData: ServiceData[] = [
 
 • Монтаж отмостки — создание бетонной или мягкой дорожки вокруг дома для отвода осадков.`,
     images: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/35aa49ed-b34a-4eb0-80a1-0b537612bfa4.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/5b98d7be-6221-4524-a318-3746563bace0.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/56bffd0f-6cee-4a30-a462-8e2282c7f4b5.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/7e86f9da-30de-4065-a3c7-db29b5e8fe5d.jpg',
@@ -114,6 +116,7 @@ export const servicesData: ServiceData[] = [
 
 • Герметизация и покраска — заделка отверстий в местах креплений и окрашивание шифера специальными составами для защиты от мха и влаги.`,
     images: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/93969d07-2569-43c0-94b7-847d3ca464e9.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/c4bc55db-ce35-4df1-851f-4ce2f5dc9353.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/4259116c-1d14-4489-9d01-f897c76a4116.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/1928626c-0e8d-4e91-8fc8-2a746427a425.jpg',
@@ -259,6 +262,7 @@ export const servicesData: ServiceData[] = [
 
 • Установка ворот и калиток — монтаж распашных или откатных ворот, врезка замков и установка автоматики.`,
     images: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/5f472fd8-d03f-4f77-8ce8-95b008e40553.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/efee86a8-7124-4b0f-9ff9-9e1f44b2cdc3.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/5ed1f378-b6e9-41bb-8685-c1fab9465c4a.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/ecbe1b1c-0661-4d66-b846-9214953e1859.jpg',
@@ -310,6 +314,7 @@ export const servicesData: ServiceData[] = [
 
 • Установка бордюров — монтаж садовых и дорожных бордюров для фиксации края плитки.`,
     images: [
+      'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/f46467e9-0995-4fb5-8a09-67542fd95775.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/83fd62ae-7185-44c3-af9b-ee38843c84f1.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/62acf3de-5bac-481b-8afe-0ca9d47cbfb6.jpg',
       'https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/47aef649-00f5-4669-9398-3f05b2410ad8.jpg',

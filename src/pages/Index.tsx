@@ -121,16 +121,24 @@ const Index = () => {
               <Link
                 key={service.id}
                 to={`/services/${service.id}`}
-                className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-xl transition-all hover:border-blue-500 group"
+                className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all hover:border-blue-500 group"
               >
-                <div className="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
-                  <Icon name={service.icon} size={28} className="text-blue-600 group-hover:text-white transition-colors" />
+                {service.images[0] && (
+                  <div className="h-40 overflow-hidden">
+                    <img
+                      src={service.images[0]}
+                      alt={service.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                )}
+                <div className="p-6">
+                  <h3 className="text-lg font-bold text-slate-900 mb-2">{service.title}</h3>
+                  <p className="text-slate-600 text-sm leading-relaxed mb-4 line-clamp-3">{service.description}</p>
+                  <span className="flex items-center gap-2 text-blue-600 font-semibold text-sm">
+                    Подробнее <Icon name="ArrowRight" size={16} />
+                  </span>
                 </div>
-                <h3 className="text-lg font-bold text-slate-900 mb-2">{service.title}</h3>
-                <p className="text-slate-600 text-sm leading-relaxed mb-4 line-clamp-3">{service.description}</p>
-                <span className="flex items-center gap-2 text-blue-600 font-semibold text-sm">
-                  Подробнее <Icon name="ArrowRight" size={16} />
-                </span>
               </Link>
             ))}
           </div>

@@ -71,6 +71,17 @@ export default function AboutSection() {
             Каждый объект — это наша репутация.
           </p>
 
+          <div className="mb-12 rounded-2xl overflow-hidden shadow-md border border-gray-200">
+            <img
+              src="https://cdn.poehali.dev/projects/84ffef16-74aa-4268-b058-108d5367ee02/bucket/2d6df8a5-b2ba-4149-9dac-8df2f78450ca.jpg"
+              alt="Карта объектов — Донецкая Народная Республика"
+              className="w-full object-cover"
+            />
+            <div className="bg-slate-800 px-6 py-3 text-center text-slate-300 text-sm">
+              Мы работаем по всей Донецкой Народной Республике — Донецк, Макеевка, Горловка, Мариуполь, Волноваха, Снежное и другие города
+            </div>
+          </div>
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mb-16">
             {stats.map((stat) => (
               <div

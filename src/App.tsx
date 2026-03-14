@@ -7,6 +7,7 @@ import PortfolioPage from "./pages/PortfolioPage";
 import ServicesPage from "./pages/ServicesPage";
 import AwardsPage from "./pages/AwardsPage";
 import ServicePage from "./pages/ServicePage";
+import ReviewsPage from "./pages/ReviewsPage";
 import NotFound from "./pages/NotFound";
 
 const App = () => (
@@ -20,6 +21,7 @@ const App = () => (
       <Route path="/services" element={<ServicesPage />} />
       <Route path="/awards" element={<AwardsPage />} />
       <Route path="/services/:serviceId" element={<ServicePage />} />
+      <Route path="/reviews" element={<ReviewsPage />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   </BrowserRouter>

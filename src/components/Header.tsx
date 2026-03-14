@@ -9,6 +9,7 @@ const navLinks = [
   { href: '/social', label: 'Социальная поддержка' },
   { href: '/portfolio', label: 'Наши работы' },
   { href: '/awards', label: 'Награды и сертификаты' },
+  { href: '/#reviews', label: 'Отзывы' },
 ];
 
 export default function Header() {

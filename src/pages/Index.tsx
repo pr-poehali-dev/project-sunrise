@@ -5,6 +5,7 @@ import Icon from '@/components/ui/icon.tsx';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import OrderModal from '@/components/OrderModal';
+import TestimonialsSection from '@/components/TestimonialsSection';
 import { servicesData } from '@/data/servicesData';
 
 const images = [
@@ -187,6 +188,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      <TestimonialsSection />
 
       <Footer />
 
